@@ -35,5 +35,8 @@ h1{
 h2{
   text-align: center;
   color: white;
-  font-family: serif; 
+  font-family: serif;
+}
+.P1{
+  border-radius: 50%;
 }
