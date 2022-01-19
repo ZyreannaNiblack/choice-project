@@ -106,12 +106,15 @@ h2{
 }
 
 div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  background-color: black;
   position: relative;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  margin: 5px;
+float: left;
+width: 180px;
+text-decoration: underline;
+color:white
 }
 
 @keyframes example {
@@ -120,4 +123,17 @@ div {
   50%  {background-color:blue; left:200px; top:200px;}
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;}
+}
+
+div.branches: ul{
+  color: white;
+  font-size: 25px;
+  list-style-type: lower-alpha;
+  background-color: black;
+}
+
+footer{
+  color: white;
+  text-align: center;
+  
 }
