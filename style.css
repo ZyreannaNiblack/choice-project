@@ -82,15 +82,21 @@ h2{
 .container img {
   width: 100%;
   height: auto;
+  width: 300px;
+ height: 100px;
+ background-color: red;
+ font-weight: bold;
+ position: relative;
+ animation: mymove 5s infinite;
 }
 
 .container .btn {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: rotateX(150deg);
   -ms-transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
+  background-color:
   color: black;
   font-size: 16px;
   padding: 16px 30px;
@@ -158,4 +164,17 @@ div.dropdown-content {
 .desc {
   padding: 15px;
   text-align: center;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+}
+function myFunction() {
+  document.getElementById("demo").style.color = "red";
+}
+.container2{
+  background-color: white;
+  border: 1px solid #1e90ff;
 }
